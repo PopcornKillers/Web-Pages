@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --c1: #a7d2cb;
+  --c2: #f2d388;
+  --c3: #c98474;
+  --c4: #874c62;
+}
+body {
+  height: 100vh;
+  flex-direction: row;
+  display: flex;
+  transition: 2s;
+  background-color: var(--c1);
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.deal {
+  width: 60vw;
+  height: 80vh;
+  color: #000;
+  background-color: #fff;
+  box-shadow: 1px 1px 10px #000;
+  overflow-y: scroll;
+  /* 适配火狐 */
+  scrollbar-color: transparent transparent;
+  scrollbar-track-color: transparent;
+  -ms-scrollbar-track-color: transparent;
+}
+/* 适配谷歌 */
+.deal::-webkit-scrollbar {
+  width: 0 !important;
+}
+h1 {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+h3 {
+  padding: 30px;
+  text-align: justify;
+}
+p {
+  text-align: justify;
+  padding: 15px;
+  text-indent: 2em;
+  font-size: 15px;
+}
