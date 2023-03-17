@@ -1,2 +1,2 @@
-# Web Page
-Some web pages!!!
+# Web
+Some web pages with a sense of design.
